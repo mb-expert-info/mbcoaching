@@ -1,20 +1,22 @@
 <template>
   <section class="relative min-h-screen w-full flex items-center justify-center overflow-hidden mt-28 md:mt-40">
     <!-- Background placeholder (would be an image) -->
-    <!-- Background Video -->
-    <div class="absolute inset-0 z-0 w-full h-full overflow-hidden">
-      <video
-        src="/coach/mb_highlights.mov"
-        autoplay
-        loop
-        muted
-        playsinline
-        class="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto object-cover transform -translate-x-1/2 -translate-y-1/2 scale-150 md:scale-100"
-      >
-        Your browser does not support the video tag.
-      </video>
-      <!-- Overlay for text readability -->
-      <div class="absolute inset-0 bg-black/40 z-10"></div>
+    <!-- Background Video Container -->
+    <div class="absolute inset-0 z-0 w-full h-full flex items-center justify-center p-0 md:p-8 lg:p-12">
+      <div class="relative w-full h-full md:h-[85vh] md:max-w-6xl md:rounded-[3rem] overflow-hidden shadow-none md:shadow-2xl md:shadow-brand-red/10 transition-all duration-500">
+        <video
+          src="/coach/melissa_hero_page.mov"
+          autoplay
+          loop
+          muted
+          playsinline
+          class="w-full h-full object-cover"
+        >
+          Your browser does not support the video tag.
+        </video>
+        <!-- Overlay for text readability (only over the video) -->
+        <div class="absolute inset-0 bg-black/40 z-10"></div>
+      </div>
     </div>
 
     <div class="container mx-auto px-4 relative z-20 text-center">
@@ -28,11 +30,11 @@
         <span class="text-brand-red font-bold">Performance . Discipline . Dépassement</span>
       </p>
       <div class="flex flex-col md:flex-row gap-4 justify-center reveal reveal-delay-500">
-        <NuxtLink to="/coaching" class="px-8 py-4 bg-brand-red hover:bg-red-700 text-white font-bold uppercase tracking-widest rounded transition-all hover:scale-105 shadow-lg shadow-red-600/20">
+        <NuxtLink to="#offres" class="px-8 py-4 bg-brand-red hover:bg-red-700 text-white font-bold uppercase tracking-widest rounded transition-all hover:scale-105 shadow-lg shadow-red-600/20">
           Découvrir mes offres
         </NuxtLink>
-        <NuxtLink to="/biographie" class="px-8 py-4 bg-white border border-transparent hover:border-brand-red text-slate-900 hover:text-brand-red font-bold uppercase tracking-widest rounded transition-all hover:bg-slate-50 shadow-lg shadow-white/10">
-          Mon Parcours
+        <NuxtLink to="#biographie" class="px-8 py-4 bg-white border border-transparent hover:border-brand-red text-slate-900 hover:text-brand-red font-bold uppercase tracking-widest rounded transition-all hover:bg-slate-50 shadow-lg shadow-white/10">
+          Qui suis-je ?
         </NuxtLink>
       </div>
     </div>

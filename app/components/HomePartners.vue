@@ -3,6 +3,8 @@ const partners = [
   { name: 'LOSC', logo: '/partenaire/losc.svg' },
   { name: 'Apollo Sporting Club', logo: '/partenaire/logo_apollo.png' },
   { name: 'Action Boxe', logo: '/partenaire/Logo-Action-Boxe-BBG.png' },
+  { name: 'Armée de Terre', logo: '/partenaire/armee_terre_2.png' },
+  { name: 'Cross Training Femme', logo: '/partenaire/cross_training_femme.png' },
 ]
 </script>
 

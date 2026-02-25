@@ -12,27 +12,27 @@
           <!-- Quote Badge -->
           <div class="absolute -bottom-8 -right-8 bg-brand-red p-8 rounded-tr-3xl rounded-bl-3xl shadow-xl z-20 max-w-xs hidden md:block">
             <p class="text-white font-serif italic text-lg leading-relaxed">
-              "La boxe n'est pas qu'un sport, c'est une école de la vie où chaque coup reçu vous apprend à vous relever."
+              "Réveille toi avec détermination, endors toi avec satisfaction."
             </p>
           </div>
         </div>
 
         <!-- Content Side (Right) -->
         <div class="w-full md:w-1/2">
-          <h2 class="text-brand-red font-bold uppercase tracking-widest mb-4 reveal reveal-delay-100">Mon Histoire</h2>
+          <h2 class="text-brand-red font-bold uppercase tracking-widest mb-4 reveal reveal-delay-100">Qui suis-je ?</h2>
           <h3 class="text-4xl md:text-5xl font-black text-slate-900 mb-8 italic uppercase leading-tight reveal reveal-delay-200">
-            De la passion <br/> au <span class="text-brand-red">Haut Niveau</span>
+            Du Haut Niveau <br/> à <span class="text-brand-red">Votre Accompagnement</span>
           </h3>
           
           <div class="space-y-6 text-slate-600 text-lg leading-relaxed reveal reveal-delay-300">
             <p>
-              Tout a commencé par une simple envie de me défouler. Très vite, la salle de boxe est devenue ma deuxième maison. J'y ai découvert bien plus qu'un sport : une discipline, une rigueur et une force mentale insoupçonnée.
+              <strong>Éducatrice et coach sportive</strong>, je mets mon parcours d'athlète au service de vos objectifs. Membre de l'<strong>Équipe de France de boxe anglaise</strong> et <strong>Championne de France 2025</strong>, l'exigence et le dépassement de soi sont au cœur de ma méthode.
             </p>
             <p>
-              Année après année, combat après combat, j'ai gravi les échelons. Des championnats régionaux aux podiums nationaux, chaque victoire a été le fruit d'un travail acharné et d'une détermination sans faille.
+              Je propose des prestations sportives adaptées à tous les profils : <strong>particuliers, groupes, entreprises et professionnels</strong>. Mon approche s'appuie sur les valeurs fortes du sport pour vous aider à atteindre vos buts.
             </p>
             <p>
-              Aujourd'hui, mon objectif est double : continuer à performer sur le ring et transmettre cette passion. Je veux vous montrer que les limites que nous nous fixons sont souvent mentales.
+              Chaque <strong>séance est sur mesure</strong> et s'adapte à vos besoins. Que vous cherchiez la <strong>progression, la performance, la cohésion d'équipe ou le développement de la confiance en soi</strong>, nous construisons ensemble le chemin vers votre réussite.
             </p>
           </div>
 
@@ -42,12 +42,12 @@
               <span class="text-sm font-bold uppercase text-slate-500 tracking-wider">Années d'expérience</span>
             </div>
              <div>
-              <span class="block text-4xl font-black text-brand-red mb-1">50+</span>
-              <span class="text-sm font-bold uppercase text-slate-500 tracking-wider">Combats</span>
+              <span class="block text-4xl font-black text-brand-red mb-1">100%</span>
+              <span class="text-sm font-bold uppercase text-slate-500 tracking-wider">Sur mesure</span>
             </div>
              <div>
-              <span class="block text-4xl font-black text-brand-red mb-1">100%</span>
-              <span class="text-sm font-bold uppercase text-slate-500 tracking-wider">Détermination</span>
+              <span class="block text-4xl font-black text-brand-red mb-1">1ère</span>
+              <span class="text-sm font-bold uppercase text-slate-500 tracking-wider">Championne de France</span>
             </div>
           </div>
         </div>

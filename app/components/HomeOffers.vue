@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen w-full flex items-center justify-center bg-white/50 backdrop-blur-sm py-24">
+  <section id="offres" class="min-h-screen w-full flex items-center justify-center bg-white/50 backdrop-blur-sm py-24">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16 reveal">
         <h2 class="text-brand-red font-bold uppercase tracking-widest mb-4">Mes Offres</h2>
