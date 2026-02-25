@@ -16,5 +16,8 @@
 
     <!-- Partners Section -->
     <HomePartners />
+
+    <!-- Reviews / Testimonials -->
+    <HomeReviews />
   </div>
 </template>

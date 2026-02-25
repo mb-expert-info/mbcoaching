@@ -1,5 +1,5 @@
 <template>
-  <section class="relative min-h-screen w-full flex items-center justify-center overflow-hidden mt-28 md:mt-40">
+  <section id="accueil" class="relative min-h-screen w-full flex items-center justify-center overflow-hidden mt-28 md:mt-40">
     <!-- Background placeholder (would be an image) -->
     <!-- Background Video Container -->
     <div class="absolute inset-0 z-0 w-full h-full flex items-center justify-center p-0 md:p-8 lg:p-12">
