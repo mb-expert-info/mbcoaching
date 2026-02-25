@@ -47,7 +47,7 @@ const closeMenu = () => {
       </nav>
       
       <!-- Mobile Menu Button -->
-      <button @click="toggleMenu" class="md:hidden p-2 text-slate-800 hover:text-brand-red transition-colors z-50 relative">
+      <button @click="toggleMenu" class="md:hidden p-2 text-slate-800 hover:text-brand-red transition-colors z-50 relative ml-auto mr-4">
         <div class="w-6 h-5 flex flex-col justify-between">
           <span :class="['w-full h-0.5 bg-current transition-all duration-300', isMenuOpen ? 'rotate-45 translate-y-2' : '']"></span>
           <span :class="['w-full h-0.5 bg-current transition-all duration-300', isMenuOpen ? 'opacity-0' : '']"></span>

@@ -1,12 +1,12 @@
 <template>
-  <div class="pt-28 md:pt-40 pb-0 bg-white min-h-screen">
+  <div class="pt-40 md:pt-56 pb-0 bg-white min-h-screen overflow-x-hidden">
     <!-- Page Header -->
     <section class="container mx-auto px-4 mb-24 text-center reveal">
-      <h1 class="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter italic mb-6 text-slate-900 leading-tight">
+      <h1 class="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter italic mb-6 text-slate-900 leading-tight break-words">
         L'Accompagnement <br class="hidden md:block" />
-        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-red-600">Sur-Mesure</span>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-red-600 inline-block">Sur-Mesure</span>
       </h1>
-      <p class="text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed">
+      <p class="text-lg sm:text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed mt-6">
         Des séances adaptées à vos besoins spécifiques, pour progresser, vous dépasser et atteindre vos objectifs.
       </p>
     </section>
@@ -100,7 +100,7 @@
           <div class="absolute inset-0 bg-red-900/10 rounded-3xl transform -rotate-3 scale-105 z-0"></div>
           <div class="relative z-10 bg-slate-900 rounded-3xl p-8 border border-slate-800 shadow-2xl aspect-square flex flex-col justify-center text-white">
             <h3 class="text-brand-red font-bold uppercase tracking-widest mb-4">Pour Les Athlètes</h3>
-            <h4 class="text-4xl md:text-5xl font-black italic uppercase mb-8">Professionnels</h4>
+            <h4 class="text-3xl sm:text-4xl md:text-5xl font-black italic uppercase mb-8 break-words">Professionnels</h4>
              <ul class="space-y-4 text-slate-300 text-lg">
               <li class="flex items-start gap-3">
                 <svg class="w-6 h-6 text-brand-red flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
