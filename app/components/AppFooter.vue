@@ -28,9 +28,11 @@
           <h3 class="text-sm font-bold uppercase tracking-widest text-slate-500 mb-6">Navigation</h3>
           <nav class="flex flex-col gap-4">
             <NuxtLink to="/" class="text-slate-300 hover:text-brand-red transition-colors w-fit">Accueil</NuxtLink>
-            <NuxtLink to="/biographie" class="text-slate-300 hover:text-brand-red transition-colors w-fit">Mon Parcours</NuxtLink>
-            <NuxtLink to="/coaching" class="text-slate-300 hover:text-brand-red transition-colors w-fit">Mes Offres</NuxtLink>
-            <NuxtLink to="/contact" class="text-slate-300 hover:text-brand-red transition-colors w-fit">Contact</NuxtLink>
+            <NuxtLink to="/#biographie" class="text-slate-300 hover:text-brand-red transition-colors w-fit">Qui Suis-Je</NuxtLink>
+            <NuxtLink to="/#valeurs" class="text-slate-300 hover:text-brand-red transition-colors w-fit">Mon Approche</NuxtLink>
+            <NuxtLink to="/#offres" class="text-slate-300 hover:text-brand-red transition-colors w-fit">Mes Offres</NuxtLink>
+            <NuxtLink to="/coaching" class="text-slate-300 hover:text-brand-red transition-colors w-fit">Coaching</NuxtLink>
+            <NuxtLink to="/coaching#contact" class="text-slate-300 hover:text-brand-red transition-colors w-fit">Contact</NuxtLink>
           </nav>
         </div>
 
@@ -38,10 +40,9 @@
         <div>
           <h3 class="text-sm font-bold uppercase tracking-widest text-slate-500 mb-6">Coachings</h3>
           <ul class="flex flex-col gap-4">
-            <li class="text-slate-300">Boxe Entreprise</li>
-            <li class="text-slate-300">Coaching Particulier</li>
-            <li class="text-slate-300">Préparation Physique</li>
-            <li class="text-slate-300">Team Building</li>
+            <li><NuxtLink to="/coaching#particuliers" class="text-slate-300 hover:text-brand-red transition-colors w-fit">Particuliers</NuxtLink></li>
+            <li><NuxtLink to="/coaching#entreprises" class="text-slate-300 hover:text-brand-red transition-colors w-fit">Entreprises</NuxtLink></li>
+            <li><NuxtLink to="/coaching#professionnels" class="text-slate-300 hover:text-brand-red transition-colors w-fit">Professionnels</NuxtLink></li>
           </ul>
         </div>
 
@@ -51,7 +52,7 @@
           <p class="text-slate-400 text-sm mb-6">
             Prêt à monter sur le ring ? Réservez votre séance d'essai dès maintenant.
           </p>
-          <NuxtLink to="/contact" class="inline-block px-6 py-3 bg-brand-red hover:bg-red-700 text-white font-bold uppercase tracking-wider rounded transition-all shadow-lg shadow-red-900/20 hover:shadow-red-900/40 transform hover:-translate-y-1">
+          <NuxtLink to="/coaching#contact" class="inline-block px-6 py-3 bg-brand-red hover:bg-red-700 text-white font-bold uppercase tracking-wider rounded transition-all shadow-lg shadow-red-900/20 hover:shadow-red-900/40 transform hover:-translate-y-1">
             Réserver une séance
           </NuxtLink>
         </div>
@@ -61,8 +62,8 @@
       <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-600">
         <p>&copy; {{ new Date().getFullYear() }} Melissa Bounoua. Tous droits réservés.</p>
         <div class="flex gap-6">
-          <a href="#" class="hover:text-slate-400 transition-colors">Mentions Légales</a>
-          <a href="#" class="hover:text-slate-400 transition-colors">Politique de Confidentialité</a>
+          <NuxtLink to="/mentions-legales" class="hover:text-slate-400 transition-colors">Mentions Légales</NuxtLink>
+          <NuxtLink to="/politique-confidentialite" class="hover:text-slate-400 transition-colors">Politique de Confidentialité</NuxtLink>
         </div>
       </div>
     </div>
