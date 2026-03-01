@@ -12,7 +12,10 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: {
         lang: 'fr'
-      }
+      },
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/logo/logo_512.png' }
+      ]
     }
   }
 })
