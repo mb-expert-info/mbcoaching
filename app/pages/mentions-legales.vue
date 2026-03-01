@@ -13,10 +13,9 @@
           <ul class="list-disc ml-6 mt-2 space-y-1">
             <li><strong>Mélissa Bounoua</strong></li>
             <li><strong>Statut juridique :</strong> Auto-entreprise</li>
-            <li><strong>Numéro SIRET :</strong> [VOTRE NUMÉRO SIRET ICI]</li>
-            <li><strong>Siège social :</strong> [VOTRE ADRESSE POSTALE ICI]</li>
-            <li><strong>Email de contact :</strong> [VOTRE ADRESSE EMAIL PROFESSIONNELLE ICI]</li>
-            <li><strong>Téléphone :</strong> [VOTRE NUMÉRO DE TÉLÉPHONE ICI (Optionnel)]</li>
+            <li><strong>Numéro SIRET :</strong> 90208344300017</li>
+            <li><strong>Siège social :</strong> 92/10 Rue Galilée, 59510, Hem</li>
+            <li><strong>Email de contact :</strong> melissa.mbcoaching@gmail.com</li>
             <li><strong>Directeur de la publication :</strong> Mélissa Bounoua</li>
           </ul>
         </section>
@@ -26,9 +25,9 @@
           <h2 class="text-2xl font-bold uppercase italic text-slate-900 mb-4 tracking-wider">2. Hébergement</h2>
           <p>L'hébergement du site est assuré par :</p>
           <ul class="list-disc ml-6 mt-2 space-y-1">
-            <li><strong>Nom de l'hébergeur :</strong> [NOM DE L'HÉBERGEUR (ex: Netlify, Vercel, OVH)]</li>
-            <li><strong>Adresse :</strong> [ADRESSE DE L'HÉBERGEUR]</li>
-            <li><strong>Site Internet :</strong> [LIEN DE L'HÉBERGEUR]</li>
+            <li><strong>Nom de l'hébergeur :</strong> GitHub, Inc.</li>
+            <li><strong>Adresse :</strong> 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis</li>
+            <li><strong>Site Internet :</strong> https://pages.github.com/</li>
           </ul>
         </section>
 
@@ -37,8 +36,8 @@
           <h2 class="text-2xl font-bold uppercase italic text-slate-900 mb-4 tracking-wider">3. Conception & Développement</h2>
           <p>Le site internet a été développé par :</p>
           <ul class="list-disc ml-6 mt-2 space-y-1">
-            <li><strong>Développeur :</strong> [VOTRE NOM ET PRENOM / VOTRE ENTREPRISE ICI]</li>
-            <li><strong>Site Internet :</strong> [LIEN VERS VOTRE PORTFOLIO OU SITE ICI (Optionnel)]</li>
+            <li><strong>Développeur :</strong> Mehdy Bounoua</li>
+            <li><strong>Site Internet :</strong> https://mbexpertinformatique.com</li>
           </ul>
         </section>
 

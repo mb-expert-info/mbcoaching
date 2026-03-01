@@ -76,11 +76,13 @@
           </button>
 
           <div class="flex flex-col md:flex-row h-full">
-            <!-- Video Section -->
+            <!-- Video/Image Section -->
             <div class="w-full md:w-1/2 bg-slate-900 relative aspect-video md:aspect-auto min-h-[250px] md:min-h-[400px]">
               <video v-if="services[activeModal].videoUrl" :src="services[activeModal].videoUrl" autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover"></video>
               
-              <!-- Video Placeholder (For services without video yet) -->
+              <img v-else-if="services[activeModal].imageUrl" :src="services[activeModal].imageUrl" :alt="services[activeModal].title" class="absolute inset-0 w-full h-full object-cover" />
+              
+              <!-- Video Placeholder (For services without video or image yet) -->
               <div v-else class="absolute inset-0 flex flex-col items-center justify-center text-slate-400 p-8 text-center bg-slate-800">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mb-4 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -132,7 +134,8 @@ const services = {
   individuel: {
     title: "Coaching Individuel",
     description: "Un face-à-face privilégié où 100% de mon attention vous est dédiée. Leçons aux pattes d'ours, correction biomécanique, ou préparation physique spécifique. C'est le format le plus rapide pour franchir des paliers techniques et physiques personnalisés.",
-    videoUrl: null
+    videoUrl: null,
+    imageUrl: "/coach/coaching_prive.png"
   }
 }
 

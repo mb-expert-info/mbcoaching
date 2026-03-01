@@ -26,7 +26,7 @@
         <section>
           <h2 class="text-2xl font-bold uppercase italic text-slate-900 mb-4 tracking-wider">2. Finalité de la collecte</h2>
           <p>
-            Ces données sont collectées dans l'unique but de répondre à vos demandes de renseignements, de prendre contact avec vous, d'établir des devis pour les entreprises, et d'organiser les séances de coaching. Elles ne sont en aucun cas vendues, cédées ou louées à des tiers à des fins commerciales.
+            Ces données sont collectées dans l'uninements, de prendre contact avec vous, d'établir des devis et d'organiser les séances de coaching. Elles ne soque but de répondre à vos demandes de renseignt en aucun cas vendues, cédées ou louées à des tiers à des fins commerciales.
           </p>
         </section>
 
@@ -34,7 +34,7 @@
         <section>
           <h2 class="text-2xl font-bold uppercase italic text-slate-900 mb-4 tracking-wider">3. Conservation des données</h2>
           <p>
-            Vos données sont conservées pour la durée strictement nécessaire au traitement de votre demande et, en cas de contractualisation, pour la durée de notre relation commerciale. Elles sont ensuite archivées selon les délais de prescription légale.
+            Vos données sont conservées pour la durée strictement nécessaire au traitement de votre demande et en cas de contractualisation, pour la durée de notre relation commerciale. Elles sont ensuite archivées selon les délais de prescription légale.
           </p>
         </section>
 
@@ -51,7 +51,7 @@
             <li><strong>Droit de limitation et d'opposition :</strong> Vous pouvez vous opposer au traitement de vos données de façon temporaire ou définitive.</li>
           </ul>
           <p class="mt-4">
-            Pour exercer l'un de ces droits, vous pouvez me contacter directement à l'adresse suivante : <strong>[VOTRE ADRESSE EMAIL ICI]</strong>.
+            Pour exercer l'un de ces droits, vous pouvez me contacter directement à l'adresse suivante : <strong>melissa.mbcoaching@gmail.com</strong>.
           </p>
         </section>
         

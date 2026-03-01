@@ -147,7 +147,7 @@
             Réserver <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-red-600">une séance</span>
           </h3>
           <p class="mt-6 text-slate-600 text-lg max-w-2xl mx-auto">
-            Remplissez le formulaire ci-dessous pour m'en dire plus sur vos objectifs. Je reviendrai vers vous rapidement pour que l'on fixe notre premier entraînement ou discuter de votre projet d'entreprise.
+            Remplissez le formulaire ci-dessous pour m'en dire plus sur vos objectifs. Je reviendrai vers vous rapidement pour que l'on fixe notre premier entraînement ou discuter de votre projet.
           </p>
         </div>
 
@@ -246,8 +246,8 @@ const form = ref({
 const isSubmitting = ref(false)
 const submitStatus = ref(null) // 'success' | 'error' | null
 
-// TODO: REMPLACER PAR L'URL GOOGLE APPS SCRIPT DÈS QUE CREÉ
-const GOOGLE_SCRIPT_URL = ''
+// URL de notre script Google Apps Script
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxycDraHb1-Qn-qpl8aFuCk7Giwp0PBdgDqX7Sh6jj1A6j1ybnGvoQn-LUYWB16UbQ2/exec'
 
 const submitForm = async () => {
   if (!GOOGLE_SCRIPT_URL) {
