@@ -43,11 +43,12 @@ const closeMenu = () => {
         <NuxtLink to="/#biographie" class="text-sm font-medium hover:text-brand-red transition-colors text-slate-800 uppercase tracking-widest">Qui Suis-je</NuxtLink>
         <NuxtLink to="/#valeurs" class="text-sm font-medium hover:text-brand-red transition-colors text-slate-800 uppercase tracking-widest">Mon approche</NuxtLink>
         <NuxtLink to="/#offres" class="text-sm font-medium hover:text-brand-red transition-colors text-slate-800 uppercase tracking-widest">Mes Offres</NuxtLink>
+        <NuxtLink to="/coaching" class="text-sm font-medium hover:text-brand-red transition-colors text-brand-red uppercase tracking-widest">Coaching</NuxtLink>
         <NuxtLink to="/coaching#contact" class="text-sm font-medium hover:text-brand-red transition-colors text-slate-800 uppercase tracking-widest">Contact</NuxtLink>
       </nav>
       
       <!-- Mobile Menu Button -->
-      <button @click="toggleMenu" class="md:hidden p-2 text-slate-800 hover:text-brand-red transition-colors z-50 relative">
+      <button @click="toggleMenu" class="md:hidden p-2 text-slate-800 hover:text-brand-red transition-colors z-50 relative ml-auto mr-4">
         <div class="w-6 h-5 flex flex-col justify-between">
           <span :class="['w-full h-0.5 bg-current transition-all duration-300', isMenuOpen ? 'rotate-45 translate-y-2' : '']"></span>
           <span :class="['w-full h-0.5 bg-current transition-all duration-300', isMenuOpen ? 'opacity-0' : '']"></span>
@@ -69,6 +70,7 @@ const closeMenu = () => {
           <NuxtLink @click="closeMenu" to="/#biographie" class="text-3xl font-bold uppercase italic text-slate-900 hover:text-brand-red transition-colors">Qui Suis-je</NuxtLink>
           <NuxtLink @click="closeMenu" to="/#valeurs" class="text-3xl font-bold uppercase italic text-slate-900 hover:text-brand-red transition-colors">Mon approche</NuxtLink>
           <NuxtLink @click="closeMenu" to="/#offres" class="text-3xl font-bold uppercase italic text-slate-900 hover:text-brand-red transition-colors">Mes Offres</NuxtLink>
+          <NuxtLink @click="closeMenu" to="/coaching" class="text-3xl font-bold uppercase italic text-brand-red hover:text-red-700 transition-colors">Coaching</NuxtLink>
           <NuxtLink @click="closeMenu" to="/coaching#contact" class="text-3xl font-bold uppercase italic text-slate-900 hover:text-brand-red transition-colors">Contact</NuxtLink>
           
           <NuxtLink @click="closeMenu" to="/coaching#contact" class="mt-8 px-8 py-4 bg-brand-red hover:bg-red-700 text-white text-lg font-bold uppercase tracking-wider rounded transition-colors duration-300 shadow-xl shadow-red-500/20">

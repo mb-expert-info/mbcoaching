@@ -20,8 +20,8 @@
         <!-- Content Side (Right) -->
         <div class="w-full md:w-1/2">
           <h2 class="text-brand-red font-bold uppercase tracking-widest mb-4 reveal reveal-delay-100">Qui suis-je ?</h2>
-          <h3 class="text-4xl md:text-5xl font-black text-slate-900 mb-8 italic uppercase leading-tight reveal reveal-delay-200">
-            Du Haut Niveau <br/> à <span class="text-brand-red">Votre Accompagnement</span>
+          <h3 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mb-8 italic uppercase leading-tight reveal reveal-delay-200 break-words">
+            Du Haut Niveau <br/> à <span class="text-brand-red inline-block">Votre Accompagnement</span>
           </h3>
           
           <div class="space-y-6 text-slate-600 text-lg leading-relaxed reveal reveal-delay-300">
@@ -36,18 +36,18 @@
             </p>
           </div>
 
-          <div class="mt-12 pt-8 border-t border-red-100 flex items-center justify-between reveal reveal-delay-500">
-            <div>
+          <div class="mt-12 pt-8 border-t border-red-100 flex flex-wrap items-center justify-between gap-8 md:gap-4 reveal reveal-delay-500">
+            <div class="w-[45%] md:w-auto">
               <span class="block text-4xl font-black text-brand-red mb-1">10+</span>
               <span class="text-sm font-bold uppercase text-slate-500 tracking-wider">Années d'expérience</span>
             </div>
-             <div>
+             <div class="w-[45%] md:w-auto">
               <span class="block text-4xl font-black text-brand-red mb-1">100%</span>
               <span class="text-sm font-bold uppercase text-slate-500 tracking-wider">Sur mesure</span>
             </div>
-             <div>
-              <span class="block text-4xl font-black text-brand-red mb-1">1ère</span>
-              <span class="text-sm font-bold uppercase text-slate-500 tracking-wider">Championne de France</span>
+             <div class="w-[45%] md:w-auto">
+              <span class="block text-4xl font-black text-brand-red mb-1">+100</span>
+              <span class="text-sm font-bold uppercase text-slate-500 tracking-wider">Personnes accompagnées</span>
             </div>
           </div>
         </div>
