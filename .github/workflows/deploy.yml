@@ -25,8 +25,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          rm -rf node_modules
-          npm install
+          npm ci --prefer-offline || npm install --force
+          npm rebuild
+          npx nuxt prepare
 
       - name: Build static site
         run: npm run generate
